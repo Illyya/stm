@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Table</title>
+  </head>
+  <body>
+
+    <div class="preloader">
+      <div id="cube-loader">
+        <div class="caption">
+          <div class="cube-loader">
+            <div class="cube loader-1"></div>
+            <div class="cube loader-2"></div>
+            <div class="cube loader-4"></div>
+            <div class="cube loader-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <div class="filter">
+      <label class="filter__label" for="filter-table">Фильтровать по имени</label><br>
+      <p class="filter__help">Ничего не найдено</p>
+      <input class="filter__input" type="text" name="filter-table" id="filter-table">
+      <button class="filter__btn">Сбросить</button>
+    </div>
+    
+    <table class="table"  id="table">
+      <tr>
+        <th>Name</th>
+        <th>Picture</th>
+        <th>Location</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Registered date</th>
+      </tr>
+    </table>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
