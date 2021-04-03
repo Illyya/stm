@@ -26,7 +26,7 @@ function buildingTable(data) {
       const td = document.createElement('td'),
         imgThumbnail = document.createElement('img'),
         imglarge = document.createElement('img');
-        
+
       imgThumbnail.src = dataUser.picture.thumbnail;
       imglarge.src = dataUser.picture.large;
       imglarge.classList.add('tooltip');
@@ -106,4 +106,4 @@ input.addEventListener('keyup', tableFilter);
 buttonReset.onclick = function () {
   input.value = '';
   return tableFilter();
-} 
+}
